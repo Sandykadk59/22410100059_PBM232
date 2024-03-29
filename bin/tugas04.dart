@@ -1,4 +1,6 @@
 //menghitung volume dan luas permukaaan, serta keliling rusuk balok
+import 'dart:io';
+
 void main(){
   int volume(var p, var l, var t){
     var vol;
@@ -18,7 +20,12 @@ void main(){
     return keliling;
   }
 
+  stdout.write('Volume : ');
   print(volume(3, 4, 5));
+
+  stdout.write('Luas Permukaan : ');
   print(luaspermukaan(3, 4, 5));
+
+  stdout.write('Keliling : ');
   print(keliling(3, 4, 5));
 }
