@@ -10,10 +10,11 @@ void main(){
   var nama = <String>{"Adi","Budi","Cindi"};
   var nama2 = new Set();
 
-  var job = {'nama' : 'Sandyka', 'Kerja' : 'Programmer'};
+  var job = {'Nama' : 'Sandyka', 'Kerja' : 'Developer'};
   var job2 = new Map();
 
   print(nama);
   print(nama.elementAt(1));
   print(job['Kerja']);
+  print(job['Nama']);
 }
